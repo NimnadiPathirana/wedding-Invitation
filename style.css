@@ -275,6 +275,66 @@ font-family:'Great Vibes',cursive;
 font-size:60px;
 font-weight:400;
 }
+.rsvp-page {
+min-height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.rsvp-container form{
+width: 100%;
+}
+.rsvp-container{
+background:white;
+padding:50px;
+border-radius:30px;
+max-width:550px;
+width:100%;
+box-shadow:0 10px 30px rgba(0,0,0,0.1);
+text-align:center;
+}
+
+.rsvp-container h1{
+font-family:'Cinzel',serif;
+font-size:50px;
+color:#b38b3d;
+margin-bottom:15px;
+}
+
+.rsvp-text{
+margin-bottom:30px;
+}
+
+form{
+display:flex;
+flex-direction:column;
+gap:18px;
+}
+
+input,textarea,select{
+padding:15px;
+border-radius:15px;
+border:1px solid #e7d7b3;
+font-size:15px;
+}
+
+button{
+padding:15px;
+border:none;
+background:#c8a45d;
+color:white;
+font-size:15px;
+border-radius:40px;
+cursor:pointer;
+}
+
+.back-btn{
+display:inline-block;
+margin-top:25px;
+text-decoration:none;
+color:#a07b36;
+}
 
 @media(max-width:768px){
 
