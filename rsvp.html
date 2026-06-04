@@ -1,48 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>RSVP - Nimnadi & Sadeesha</title>
-
-<link rel="stylesheet" href="style.css">
-
-<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Great+Vibes&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RSVP • Nimnadi & Sadeesha</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Great+Vibes&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
+<body class="rsvp-standalone-page">
 
-<body>
+    <div class="watercolor-bg-overlay"></div>
+    <div class="floral-corner top-left"></div>
 
-<div class="rsvp-page">
+    <div class="rsvp-page-wrapper">
+        <!-- Interactive Geometric Archway Registration Form -->
+        <div class="luxury-arch-frame rsvp-arch-adjustment" data-aos="zoom-in" data-aos-duration="1200">
+            <div class="arch-inner-border" style="padding: 40px 20px;">
+                <h2>Confirm Attendance</h2>
+                <p class="rsvp-tagline">We look forward to celebrating with you!</p>
 
-<div class="rsvp-container">
+                <form id="advancedRsvpForm">
+                    <!-- Text Name Attribute Input Block -->
+                    <div class="input-group">
+                        <input type="text" name="name" id="name" required placeholder=" ">
+                        <label for="name">Your Full Name</label>
+                    </div>
 
-<h1>RSVP</h1>
-<p class="rsvp-text">We are excited to see you!</p>
+                    <!-- Numerical Accompanying Registry Selector -->
+                    <div class="input-group">
+                        <input type="number" name="guests" id="guests" min="1" max="10" required placeholder=" ">
+                        <label for="guests">Number of Guests Accompanied</label>
+                    </div>
 
-<form id="rsvpForm">
+                    <!-- Custom Interactive Styled Dropdown Matrix Select Component -->
+                    <div class="input-group">
+                        <select name="attendance" id="attendance" required>
+                            <option value="" disabled selected hidden></option>
+                            <option value="Attending">Joyfully Accept</option>
+                            <option value="Not Attending">Regretfully Decline</option>
+                        </select>
+                        <label class="select-label" for="attendance">Will you attend?</label>
+                    </div>
 
-<input type="text" name="name" placeholder="Full Name" required>
+                    <!-- Optional Wish Custom Message Payload Block Area -->
+                    <div class="input-group">
+                        <textarea name="message" id="message" rows="3" placeholder=" "></textarea>
+                        <label for="message">Wishes or Special Notes</label>
+                    </div>
 
-<input type="number" name="guests" placeholder="Number of Guests" required>
+                    <!-- Interactive Luxury State-Changing Form Transmission Anchor -->
+                    <button type="submit" class="submit-luxury-btn">
+                        <span>SEND RSVP</span>
+                    </button>
+                </form>
 
-<select name="attendance">
-<option>Attending</option>
-<option>Not Attending</option>
-</select>
+                <a href="index.html" class="back-to-home-link">← Back To Main Invitation</a>
+            </div>
+        </div>
+    </div>
 
-<textarea name="message" placeholder="Your Wishes"></textarea>
-
-<button type="submit">Submit RSVP</button>
-
-</form>
-
-<a href="index.html" class="back-btn">← Back to Home</a>
-
-</div>
-
-</div>
-
-<script src="script.js"></script>
-
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
