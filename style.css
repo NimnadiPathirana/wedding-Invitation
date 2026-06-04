@@ -460,8 +460,9 @@ section { padding: 100px 8%; }
 }
 
 .card-luxury-icon {
-    font-size: 40px;
-    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #c9a96e;
+    margin-bottom: 15px;
 }
 
 .luxury-card h3 {
