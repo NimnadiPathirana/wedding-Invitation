@@ -66,7 +66,7 @@ window.addEventListener('scroll', () => {
 });
 
 // Advanced API Web Form RSVP Submit Cloud Handler
-const scriptURL = "https://script.google.com/macros/s/AKfycbxQF9ksGkzq6rTKvwZqumbs3grvP7-o_fk0BpqrgeUC34AetHfSmYndZLuepxsDkYh3A/exec";
+const scriptURL = "https://script.google.com/macros/s/AKfycbwr5NcUloulGScdcUD5PwAkMGNvKExSAcNnG4O1JHUvqC-7zoLZqbFuznbNhWlCzgeprQ/exec";
 const rsvpForm = document.getElementById("advancedRsvpForm");
 
 if(rsvpForm) {
