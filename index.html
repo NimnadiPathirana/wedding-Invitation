@@ -10,6 +10,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Great+Vibes&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
     <!-- Smooth Scroll Animations Library CSS -->
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
@@ -117,30 +119,40 @@
         <div class="section-heading" data-aos="fade-up">
             <h2>Wedding Schedule</h2>
         </div>
+   <div class="luxury-detail-grid">
 
-        <div class="luxury-detail-grid">
-            <div class="luxury-card" data-aos="fade-up" data-aos-delay="100">
-                <div class="card-luxury-icon">📅</div>
-                <h3>WEDDING DATE</h3>
-                <p class="primary-detail">Monday, 20 July 2026</p>
-                <p class="secondary-detail">Save it in your calendar</p>
-            </div>
-
-            <div class="luxury-card" data-aos="fade-up" data-aos-delay="200">
-                <div class="card-luxury-icon">⏰</div>
-                <h3>CELEBRATION TIME</h3>
-                <p class="primary-detail">10.30 AM – 4.00 PM</p>
-                <p class="highlight-detail">Poruwa Ceremony • 11.14 AM</p>
-            </div>
-
-            <div class="luxury-card venue-interactive-card" data-aos="fade-up" data-aos-delay="300" onclick="scrollToMap()">
-                <div class="card-luxury-icon">📍</div>
-                <h3>THE VENUE</h3>
-                <p class="primary-detail">Hotel Grand Elite</p>
-                <p class="secondary-detail">Nawagamuwa, Sri Lanka</p>
-                <span class="view-map-link">Interactive Map ↓</span>
-            </div>
+    <div class="luxury-card" data-aos="fade-up" data-aos-delay="100">
+        <div class="card-luxury-icon">
+            <i class="fas fa-calendar-days"></i>
         </div>
+        <h3>WEDDING DATE</h3>
+        <p class="primary-detail">Monday, 20 July 2026</p>
+        <p class="secondary-detail">Save it in your calendar</p>
+    </div>
+
+    <div class="luxury-card" data-aos="fade-up" data-aos-delay="200">
+        <div class="card-luxury-icon">
+            <i class="fas fa-clock"></i>
+        </div>
+        <h3>CELEBRATION TIME</h3>
+        <p class="primary-detail">10.30 AM – 4.00 PM</p>
+        <p class="highlight-detail">Poruwa Ceremony • 11.14 AM</p>
+    </div>
+
+    <div class="luxury-card venue-interactive-card"
+         data-aos="fade-up"
+         data-aos-delay="300"
+         onclick="scrollToMap()">
+        <div class="card-luxury-icon">
+            <i class="fas fa-location-dot"></i>
+        </div>
+        <h3>THE VENUE</h3>
+        <p class="primary-detail">Hotel Grand Elite</p>
+        <p class="secondary-detail">Nawagamuwa, Sri Lanka</p>
+        <span class="view-map-link">Interactive Map ↓</span>
+    </div>
+
+</div>     
     </section>
 
     <!-- Map Section Visual Architecture Frame -->
